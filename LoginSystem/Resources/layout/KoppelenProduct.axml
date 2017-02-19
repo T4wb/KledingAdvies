@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="10dip"
+    android:background="#2E3237"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100">
+    <TextView
+        android:text="Koppeladviesscherm"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_weight="15"
+        android:layout_height="0dp"
+        android:textColor="#ffffffff"
+        android:id="@+id/txtLoginScherm"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="25sp" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/relativeLayout1">
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:prompt="@string/productPrompt"
+            android:id="@+id/spinnerProduct"
+            android:spinnerMode="dialog"
+            android:layout_marginLeft="120.0dp" />
+        <TextView
+            android:text="Product:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/txtSeizoenstype"
+            android:paddingTop="8dp"
+            android:paddingLeft="5dp"
+            android:textSize="17sp"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/relativeLayout1">
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:prompt="@string/seizoestypePrompt"
+            android:id="@+id/spinnerSeizoenstype"
+            android:spinnerMode="dialog"
+            android:layout_marginLeft="120.0dp" />
+        <TextView
+            android:text="Seizoenstype:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/txtSeizoenstype"
+            android:paddingTop="8dp"
+            android:paddingLeft="5dp"
+            android:textSize="17sp"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/relativeLayout1">
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:prompt="@string/lichaamstypePrompt"
+            android:id="@+id/spinnerLichaamstype"
+            android:spinnerMode="dialog"
+            android:layout_marginLeft="120.0dp" />
+        <TextView
+            android:text="Lichaamstype:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/txtLichaamstype"
+            android:paddingTop="8dp"
+            android:paddingLeft="5dp"
+            android:textSize="17sp"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <Button
+        android:text="Koppel kledingadvies"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:id="@+id/btnKoppelenKledingadvies"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        android:background="#307FC1"
+        android:textColor="#ffffffff"
+        android:textStyle="normal" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="45"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/relativeLayout1" />
+    <Button
+        android:text="Koppelen annuleren"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:id="@+id/btnTerugNaarMain"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:textSize="15sp"
+        android:background="#FF4200"
+        android:layout_gravity="bottom"
+        android:requiresFadingEdge="horizontal"
+        android:fadingEdge="horizontal"
+        android:textStyle="normal"
+        android:shadowColor="#ff2e3237"
+        android:shadowRadius="0"
+        style="?android:attr/borderlessButtonStyle" />
+</LinearLayout>

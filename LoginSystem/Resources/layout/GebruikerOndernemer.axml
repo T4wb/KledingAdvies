@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2E3237"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:weightSum="100">
+    <TextView
+        android:text="Ondernemerscherm"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_weight="15"
+        android:layout_height="0dp"
+        android:textColor="#ffffffff"
+        android:id="@+id/txtVerkopersScherm"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="25sp" />
+    <Button
+        android:text="Product toevoegen"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:id="@+id/btnToevoegenProduct"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        android:background="#307FC1"
+        android:textColor="#ffffffff"
+        android:textStyle="normal" />
+    <Button
+        android:text="Verkoper toevoegen"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:id="@+id/btnToevoegenVerkoper"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        android:background="#307FC1"
+        android:textColor="#ffffffff"
+        android:textStyle="normal" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="55"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/relativeLayout1" />
+    <Button
+        android:text="Log out"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:id="@+id/btnTerugNaarMain"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:textSize="15sp"
+        android:background="#FF4200"
+        android:layout_gravity="bottom"
+        android:requiresFadingEdge="horizontal"
+        android:fadingEdge="horizontal"
+        android:textStyle="normal"
+        android:shadowColor="#ff2e3237"
+        android:shadowRadius="0"
+        style="?android:attr/borderlessButtonStyle" />
+</LinearLayout>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#424242"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:weightSum="100">
+    <TextView
+        android:text="Kies je haarkleur"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_weight="7"
+        android:layout_height="0dp"
+        android:textColor="#ffffffff"
+        android:id="@+id/txtLoginScherm"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:background="#2E3237" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="31"
+        android:weightSum="100"
+        android:layout_marginTop="10dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:id="@+id/linearLayout1">
+        <ImageButton
+            android:src="@drawable/lightblondhair"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="33.3"
+            android:id="@+id/btn_light_blond_hair" />
+        <ImageButton
+            android:src="@drawable/MediumBlondHair"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="33.3"
+            android:id="@+id/btn_medium_blond_hair" />
+        <ImageButton
+            android:src="@drawable/DarkBlondHair"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="33.3"
+            android:id="@+id/btn_dark_blond_hair" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="31"
+        android:weightSum="100"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:id="@+id/linearLayout2">
+        <ImageButton
+            android:src="@drawable/LightBrownHair"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="33.3"
+            android:id="@+id/btn_light_brown_hair" />
+        <ImageButton
+            android:src="@drawable/MediumBrownHair"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="33.3"
+            android:id="@+id/btn_medium_brown_hair" />
+        <ImageButton
+            android:src="@drawable/DarkBrownHair"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="33.3"
+            android:id="@+id/btn_dark_brown_hair" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="31"
+        android:weightSum="100"
+        android:layout_marginBottom="10dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:id="@+id/linearLayout3">
+        <ImageButton
+            android:src="@drawable/LightGreyHair"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="33.3"
+            android:id="@+id/btn_light_grey_hair" />
+        <ImageButton
+            android:src="@drawable/DarkGreyHair"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="33.3"
+            android:id="@+id/btn_dark_grey_hair" />
+        <ImageButton
+            android:src="@drawable/BlackHair"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="33.3"
+            android:id="@+id/btn_black_hair" />
+    </LinearLayout>
+</LinearLayout>

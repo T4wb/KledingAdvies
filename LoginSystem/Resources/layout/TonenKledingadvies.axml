@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2E3237"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:weightSum="100">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/relativeLayout1">
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:prompt="@string/categoriePrompt"
+            android:id="@+id/spinner_categorieproduct"
+            android:spinnerMode="dialog"
+            android:layout_marginLeft="80.0dp" />
+        <Button
+            android:text="Zoek"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnZoekProducten"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:background="#307FC1"
+            android:textColor="#ffffffff"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+        <TextView
+            android:text="Categorie:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/txtCategorie"
+            android:paddingTop="8dp"
+            android:paddingLeft="5dp"
+            android:textSize="17sp"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="93"
+        android:background="#E6E6E6"
+        android:weightSum="100">
+        <ImageButton
+            android:src="@drawable/gorilla"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="20"
+            android:id="@+id/imageButtonPlaceholder"
+            android:scaleType="fitCenter"
+            android:visibility="invisible" />
+    </LinearLayout>
+</LinearLayout>

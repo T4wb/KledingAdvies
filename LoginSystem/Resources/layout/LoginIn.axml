@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2E3237"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:weightSum="100">
+    <TextView
+        android:text="Login Scherm"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_weight="15"
+        android:layout_height="0dp"
+        android:textColor="#ffffffff"
+        android:id="@+id/txtLoginScherm"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="25sp" />
+    <EditText
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:id="@+id/txtEmailLogin"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="#3B4148"
+        android:textColor="#ffffffff"
+        android:paddingLeft="10dp"
+        android:hint="Email"
+        android:requiresFadingEdge="none"
+        android:ellipsize="none" />
+    <EditText
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:id="@+id/txtPasswordLogin"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#3B4148"
+        android:textColor="#ffffffff"
+        android:paddingLeft="10dp"
+        android:hint="Wachtwoord"
+        android:layout_marginTop="10dp"
+        android:ellipsize="none" />
+    <Button
+        android:text="Aanmelden"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:id="@+id/btnSignIn"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        android:background="#307FC1"
+        android:textColor="#ffffffff"
+        android:textStyle="normal" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/relativeLayout1" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/relativeLayout2">
+        <TextView
+            android:text="Of"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/relativeLayout1" />
+    <Button
+        android:text="Registreren"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:id="@+id/btnSignUp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:textSize="15sp"
+        android:background="#17CB4D"
+        android:layout_gravity="bottom"
+        android:requiresFadingEdge="horizontal"
+        android:fadingEdge="horizontal"
+        android:textStyle="normal"
+        android:shadowColor="#2e3237"
+        android:shadowRadius="1"
+        style="?android:attr/borderlessButtonStyle" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="30"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/relativeLayout1" />
+    <Button
+        android:text="Ga terug"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:id="@+id/btnTerugNaarMain"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:textSize="15sp"
+        android:background="#FF4200"
+        android:layout_gravity="bottom"
+        android:requiresFadingEdge="horizontal"
+        android:fadingEdge="horizontal"
+        android:textStyle="normal"
+        android:shadowColor="#ff2e3237"
+        android:shadowRadius="0"
+        style="?android:attr/borderlessButtonStyle" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/relativeLayout1" />
+</LinearLayout>

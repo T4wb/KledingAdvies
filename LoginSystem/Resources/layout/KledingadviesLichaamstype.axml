@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#424242"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:weightSum="100">
+    <TextView
+        android:text="Kies je lichaamstype"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_weight="7"
+        android:layout_height="0dp"
+        android:textColor="#ffffffff"
+        android:id="@+id/txtLoginScherm"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:background="#2E3237" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="80"
+        android:weightSum="100"
+        android:id="@+id/linearLayout4">
+        <ImageButton
+            android:src="@drawable/ectomorph"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="30"
+            android:id="@+id/btnEctomorph"
+            android:paddingRight="0dp"
+            android:paddingLeft="3dp" />
+        <ImageButton
+            android:src="@drawable/mesomorph"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/btnMesomorph"
+            android:layout_weight="33"
+            android:paddingRight="0dp"
+            android:paddingLeft="5dp" />
+        <ImageButton
+            android:src="@drawable/endomorph"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="36"
+            android:id="@+id/btnEndomorph"
+            android:paddingRight="1dp" />
+    </LinearLayout>
+</LinearLayout>

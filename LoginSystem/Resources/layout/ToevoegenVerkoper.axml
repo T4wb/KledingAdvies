@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2E3237"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:weightSum="100">
+    <TextView
+        android:text="Toevoegen van Verkoper"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_weight="15"
+        android:layout_height="0dp"
+        android:textColor="#ffffffff"
+        android:id="@+id/txtToevoegenVerkoper"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="25sp" />
+    <EditText
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:id="@+id/txtEmailVerkoper"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="#3B4148"
+        android:textColor="#ffffffff"
+        android:paddingLeft="10dp"
+        android:hint="Email Verkoper"
+        android:requiresFadingEdge="none"
+        android:ellipsize="none" />
+    <Button
+        android:text="Opslaan"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:id="@+id/btnOpslaanVerkoper"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        android:background="#307FC1"
+        android:textColor="#ffffffff"
+        android:textStyle="normal" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="55"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/relativeLayout1" />
+    <Button
+        android:text="Toevoegen annuleren"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:id="@+id/btnCancelToevoegenVerkoper"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:textSize="15sp"
+        android:background="#FF4200"
+        android:layout_gravity="bottom"
+        android:requiresFadingEdge="horizontal"
+        android:fadingEdge="horizontal"
+        android:textStyle="normal"
+        android:shadowColor="#2e3237"
+        android:shadowRadius="1"
+        style="?android:attr/borderlessButtonStyle" />
+</LinearLayout>

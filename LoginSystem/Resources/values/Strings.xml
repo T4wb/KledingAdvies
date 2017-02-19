@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, Click Me!</string>
+	<string name="app_name">KAP</string>
+  <string name="categoriePrompt">Categorie</string>
+  <string-array name="categorieArray">
+    <item>Sieraden</item>
+    <item>Schoenen</item>
+    <item>Jassen</item>
+    <item>Tassen</item>
+    <item>Broeken</item>
+    <item>Petten</item>
+    <item>Horloges</item>
+  </string-array>
+  <string name="gebruikerPrompt">Gebruikersrol</string>
+  <string-array name="rolArray">
+    <item>Klant</item>
+    <item>Stylist</item>
+    <item>Verkoper</item>
+    <item>Ondernemer</item>
+  </string-array>
+  <string name="seizoestypePrompt">Seizoenstype</string>
+  <string-array name="seizoenstypeArray">
+    <item>Zomer</item>
+    <item>Herfst</item>
+    <item>Winter</item>
+    <item>Lente</item>
+  </string-array>
+  <string name="lichaamstypePrompt">Lichaamstype</string>
+  <string-array name="lichaamstypeArray">
+    <item>Ectomorph</item>
+    <item>Mesomorph</item>
+    <item>Endomorph</item>
+  </string-array>
+  <string name="productPrompt">Product</string>
+</resources>
